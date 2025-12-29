@@ -98,3 +98,88 @@ x = execute
 
 Production Note:
 Permissions are used to control access in multi-user systems.
+# Day 3 – Linux Users & Permissions (DevOps Core)
+
+## 1. Linux Permission Basics
+Linux me har file/folder ke liye 3 levels hote hain:
+- Owner
+- Group
+- Others
+
+Permissions:
+- r → read
+- w → write
+- x → execute
+
+Command:
+ls -l
+
+Example output:
+-rw-r--r--
+
+Meaning:
+Owner → read, write  
+Group → read  
+Others → read  
+
+---
+
+## 2. chmod (Change Permissions)
+
+chmod file ya folder ki permissions change karta hai.
+
+Numeric system:
+r = 4
+w = 2
+x = 1
+
+Examples:
+chmod 755 script.sh
+chmod 644 config.txt
+chmod 600 secret.env
+
+Real DevOps usage:
+- Deployment scripts → 755
+- Config files → 644
+- Secret files → 600
+
+---
+
+## 3. chown (Change Owner & Group)
+
+chown se file ka owner ya group change hota hai.
+
+Syntax:
+chown user:group file
+
+Production example:
+sudo chown jenkins:jenkins deploy.sh
+
+Use case:
+CI/CD pipelines, Docker volumes, permission issues fix karna.
+
+---
+
+## 4. Groups in Linux
+
+Groups ka use multiple users ko same access dene ke liye hota hai.
+
+Commands (Linux server par):
+groupadd devops
+usermod -aG devops user
+
+Production example:
+DevOps team ko same folder access dena using groups.
+
+---
+
+## 5. Important Note (Windows Users)
+Windows + Git Bash me:
+- chmod, chown, groupadd commands fully enforce nahi hote
+- Ye commands real Linux servers (Ubuntu, EC2, Docker) par properly kaam karte hain
+
+---
+
+## 6. Interview Point
+Linux permissions and ownership are critical for secure deployments, CI/CD pipelines, and production systems.
+git status
