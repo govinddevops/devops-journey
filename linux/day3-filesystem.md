@@ -78,3 +78,23 @@ Use 'ls -a' to view them.
 - Proper navigation is key for server management.
 x
 
+
+
+
+
+
+day3(part-2) Day 3 - Linux Permissions & Ownership
+
+ls -l
+chmod 755 file
+chmod 644 file
+
+chown user:group file
+
+Understanding:
+r = read
+w = write
+x = execute
+
+Production Note:
+Permissions are used to control access in multi-user systems.
