@@ -1,0 +1,31 @@
+==============================
+System Monitoring Log
+Sat Feb  7 16:23:53 UTC 2026
+------------------------------
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         132G  124G  8.2G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  955G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  476K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             132G  124G  8.2G  94% /mnt/c
+D:\              96G   47G   49G  49% /mnt/d
+E:\             179G   48G  132G  27% /mnt/e
+tmpfs           388M   20K  388M   1% /run/user/1000
+------------------------------
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       420Mi       3.4Gi       3.5Mi       129Mi       3.4Gi
+Swap:          1.0Gi          0B       1.0Gi
+------------------------------
+Uptime:
+ 16:23:53 up 15 min,  1 user,  load average: 0.00, 0.00, 0.00
+==============================
