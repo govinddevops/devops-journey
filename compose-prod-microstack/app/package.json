@@ -1,0 +1,13 @@
+{
+  "name": "prod-microstack-app",
+  "version": "1.0.0",
+  "description": "Production Ready Docker Compose Microstack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
