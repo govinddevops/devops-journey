@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+
+  app:
+    build: ./app
+    container_name: prod_flask_app
+    restart: always
+    depends_on:
+      db:
+        condition: service_started
+    expose:
+      - "5000"
+
+  db:
+    image: mysql:8
+    container_name: prod_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 30s
+      retries: 5
+
+  nginx:
+    image: nginx:alpine
+    container_name: prod_nginx
+    restart: always
+    depends_on:
+      - app
+    ports:
+      - "8091:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+
+volumes:
+  db_data:
+
