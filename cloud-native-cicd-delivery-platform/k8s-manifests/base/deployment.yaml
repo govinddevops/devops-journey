@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-flask-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devops-flask
+  template:
+    metadata:
+      labels:
+        app: devops-flask
+    spec:
+      containers:
+        - name: flask-container
+          image: govinddevops/flask-app:latest
+          ports:
+            - containerPort: 5000
