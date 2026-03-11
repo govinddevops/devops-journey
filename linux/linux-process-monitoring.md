@@ -1,4 +1,4 @@
-# DAY 7 – Process & Monitoring (DevOps Core)
+#  Process & Monitoring (DevOps Core)
 
 ## What is a Process?
 A process is a running instance of a program.

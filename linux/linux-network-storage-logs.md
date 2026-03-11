@@ -1,4 +1,4 @@
-# Day 5 – Networking, Disk Management & Logs
+#  Networking, Disk Management & Logs
 
 ## Networking Basics
 - IP address identifies a machine on a network

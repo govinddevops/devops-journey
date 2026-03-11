@@ -1,4 +1,4 @@
-# Day 16 – Docker Compose (Multi-Container Setup)
+#  Docker Compose (Multi-Container Setup)
 
 ## Overview
 Docker Compose was used to define and manage multi-container applications

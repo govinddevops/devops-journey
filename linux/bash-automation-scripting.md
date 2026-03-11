@@ -1,5 +1,4 @@
 ========================
-DAY 14 – SHELL SCRIPTING BASICS
 ========================
 
 Shell scripting ka matlab:
@@ -71,5 +70,4 @@ done
 - CI/CD pipelines
 
 --------------------------------
-DAY 14 COMPLETED ✅
 

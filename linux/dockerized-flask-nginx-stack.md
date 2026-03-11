@@ -1,4 +1,4 @@
-# Day 17 – Dockerized Application with Nginx (DevOps Perspective)
+#  Dockerized Application with Nginx (DevOps Perspective)
 
 ## Objective
 To design and deploy a containerized Flask application using Docker and expose it

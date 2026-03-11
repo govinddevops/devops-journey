@@ -1,5 +1,4 @@
-🔹 Day 12 Notes – Linux Cron & Scheduling (DevOps Practical)
-# Day 12 – Linux Cron Jobs and Task Scheduling (DevOps Practical)
+#  Linux Cron Jobs and Task Scheduling (DevOps Practical)
 
 ## Objective
 Understand how to automate repetitive tasks in Linux using cron and scheduled jobs.
@@ -93,7 +92,7 @@ crontab -l
 
 Summary
 
-Day 12 focused on:
+This focused on:
 
 Understanding cron daemon and cron jobs
 
