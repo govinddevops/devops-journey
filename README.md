@@ -3,8 +3,8 @@
 Welcome to my professional repository. I am **Govind**, a **Junior DevOps Engineer** focused on building resilient, automated, and scalable infrastructure. This portfolio showcases my hands-on implementation of CI/CD pipelines, Container Orchestration, and System Automation.
 
 ## 🏗️ Master Engineering Architecture
-```mermaid
 
+```mermaid
 graph TD
     A[Local Developer Code] --> B[GitHub Repository]
     B --> C[GitHub Actions CI Pipeline]
@@ -12,38 +12,36 @@ graph TD
     D --> E[Docker Hub Registry]
     E --> F[Kubernetes Cluster]
     F --> G[Application Service]
-    G --> H[Users Access Application]```
+    G --> H[Users Access Application]
 
-*Specialized Competencies
-#1. ♾️ CI/CD & Automation (Active Pipelines)
+🛠️ Specialized Competencies
+1. ♾️ CI/CD & Automation (Active Pipelines)
 Production-ready automation workflows with integrated GitHub Actions & Green Ticks ✅:
 
-: Full-stack automation from commit to K8s deployment.
+Full-Stack Automation: From commit to K8s deployment.
 
-: Multi-stage build pipelines for secure, lightweight images.
+Multi-Stage Builds: Secure, lightweight Docker images.
 
-: Managed image lifecycle and release strategies.
+Image Lifecycle: Managed release strategies via Docker Hub.
 
-#2. ☸️ Kubernetes & Container Orchestration
-: Cluster architecture, Helm charts, and observability.
+2. ☸️ Kubernetes & Container Orchestration
+Architecture: Cluster setup, Pod management, and observability.
 
-: Network isolation, volume management, and Microservices orchestration.
+Microservices: Network isolation, volume management, and orchestration.
 
-#3. 🐧 Infrastructure & System Automation
-: Professional documentation on system internals and process management.
+3. 🐧 Infrastructure & System Automation
+Linux Administration: Deep dive into system internals and process management.
 
-: Bash-driven system maintenance and Cron-based scheduling.
+Scripting: Bash-driven system maintenance and Cron-based scheduling.
 
-#Category Tools & Technologies
-Containerization :  Docker, Docker Compose, Multi-stage Builds
-Orchestration    :  Kubernetes (K8s), Minikube, Helm
-CI/CD            :  GitHub Actions, Workflow Automation
-Monitoring       :  System-level monitoring, Log analysis
-Scripting        :  Bash (Shell Scripting), Python Basics
-Environment      :  Linux (Ubuntu/Debian), VMware, Windows
+🔧 Tools & Technologies
+Category	            Tools
+Containerization	Docker, Docker Compose, Multi-stage Builds
+Orchestration	        Kubernetes (K8s), Minikube, Helm
+CI/CD	                GitHub Actions, Workflow Automation
+Environment	        Linux (Ubuntu/Debian), VMware, Windows
+Scripting	        Bash (Shell Scripting), Python Basics
 
+Junior DevOps Engineer | Govind
 
-       
-
-           Junior DevOps Engineer | Govind
-Continuous Learning. Continuous Deployment. Continuous Growth.
+Continuous Learning. Continuous Deployment.
