@@ -4,15 +4,17 @@ Welcome to my professional repository. I am **Govind**, a **Junior DevOps Engine
 
 ## 🏗️ Master Engineering Architecture
 ```mermaid
+
 graph TD
-A[Local Developer Code] --> B[GitHub Repository]
-B --> C[GitHub Actions CI Pipeline]
-C --> D[Docker Image Build]
-D --> E[Docker Hub Registry]
-E --> F[Kubernetes Cluster]
-F --> G[Application Service]
-G --> H[Users Access Application]
-🛠️ Specialized Competencies
+    A[Local Developer Code] --> B[GitHub Repository]
+    B --> C[GitHub Actions CI Pipeline]
+    C --> D[Docker Image Build]
+    D --> E[Docker Hub Registry]
+    E --> F[Kubernetes Cluster]
+    F --> G[Application Service]
+    G --> H[Users Access Application]```
+
+*Specialized Competencies
 #1. ♾️ CI/CD & Automation (Active Pipelines)
 Production-ready automation workflows with integrated GitHub Actions & Green Ticks ✅:
 
