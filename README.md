@@ -5,12 +5,12 @@ Welcome to my professional repository. I am **Govind**, a **Junior DevOps Engine
 ## 🏗️ Master Engineering Architecture
 ```mermaid
 graph TD
-    A[Local Codebase] -->|Git Push| B(GitHub Repository)
-    B -->|Trigger Actions| C{CI/CD Pipeline}
-    C -->|Docker Build| D[Artifact Creation]
-    D -->|Push| E[Docker Hub Registry]
-    E -->|Automated Pull| F[Kubernetes Cluster]
-    F -->|Expose| G[Production Environment]
+    A[Local Codebase] -->|Git Push       | B(GitHub Repository)
+    B                 -->|Trigger Actions| C{CI/CD Pipeline}
+    C                 -->|Docker Build   | D[Artifact Creation]
+    D                 -->|Push           | E[Docker Hub Registry]
+    E                 -->|Automated Pull | F[Kubernetes Cluster]
+    F                 -->|Expose         | G[Production Environment]
 
 🛠️ Specialized Competencies
 #1. ♾️ CI/CD & Automation (Active Pipelines)
