@@ -33,7 +33,7 @@ day17-docker-flask-nginx-project/
 ### 1️⃣ Clone the repository
 ```bash
 git clone <your-repo-url>
-cd day17-docker-flask-nginx-project
+cd dockerized-flask-application
 
 2️⃣ Build & Run containers
 docker compose up --build -d
@@ -61,4 +61,4 @@ Service-to-service communication via Docker network
 📌 Author
 
 Govind
-DevOps Learner | Linux | Docker | Cloud 
+DevOps | Linux | Docker | Cloud 

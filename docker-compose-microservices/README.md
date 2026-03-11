@@ -1,4 +1,4 @@
-# Day 16 - Docker Compose Project
+#  Docker Compose Project
 
 ## Objective
 Learn and implement multi-container application using Docker Compose.
@@ -15,5 +15,5 @@ Learn and implement multi-container application using Docker Compose.
 - multi-container orchestration
 
 ## Author
-Govind (DevOps Journey - Day 16)
+Govind 
 
