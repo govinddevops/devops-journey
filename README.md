@@ -13,6 +13,8 @@ graph TD
     E --> F[Kubernetes Cluster]
     F --> G[Application Service]
     G --> H[Users Access Application]
+```
+```
 
 🛠️ Specialized Competencies
 1. ♾️ CI/CD & Automation (Active Pipelines)
